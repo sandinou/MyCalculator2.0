@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mycalculator20.ThemeActivity"
+    style="?settingsBackgroundColor">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="4dp"
+        android:theme="?actionBarStyle" />
+
+    <RadioGroup
+        android:id="@+id/rg_theme_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RadioButton
+            android:id="@+id/rb_theme_default"
+            style="?themeItemStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16sp"
+            android:layout_weight="1"
+            android:fontFamily="serif-monospace"
+            android:text="@string/_default"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/rb_theme_orange"
+            style="?themeItemStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16sp"
+            android:layout_weight="1"
+            android:fontFamily="serif-monospace"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:text="@string/orange" />
+
+        <RadioButton
+            android:id="@+id/rb_theme_turquoise"
+            style="?themeItemStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16sp"
+            android:layout_weight="1"
+            android:fontFamily="serif-monospace"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:text="@string/turquoise" />
+
+        <RadioButton
+            android:id="@+id/rb_theme_blue"
+            style="?themeItemStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16sp"
+            android:layout_weight="1"
+            android:fontFamily="serif-monospace"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:text="@string/blue" />
+
+
+        <RadioButton
+            android:id="@+id/rb_theme_green"
+            style="?themeItemStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16sp"
+            android:layout_weight="1"
+            android:fontFamily="serif-monospace"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:text="@string/green" />
+
+        <RadioButton
+            android:id="@+id/rb_theme_pink"
+            style="?themeItemStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16sp"
+            android:layout_weight="1"
+            android:fontFamily="serif-monospace"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:text="@string/pink" />
+
+    </RadioGroup>
+</android.support.constraint.ConstraintLayout>

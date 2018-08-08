@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TextColor of Settings items -->
+    <attr name="settingsTextColor" format="reference"/>
+    <!-- ColorBackground of Settings items -->
+    <attr name="settingsBackgroundColor" format="reference"/>
+    <!-- Style of ImageButton -->
+    <attr name="imageButton" format="reference"/>
+    <!-- Style of buttonPrimary -->
+    <attr name="buttonPrimary" format="reference"/>
+    <!-- Style of buttonSecondary -->
+    <attr name="buttonSecondary" format="reference"/>
+
+    <attr name="displayStyle" format="reference"/>
+    <!-- Calcul EditText textColor -->
+    <attr name="displayTextStyle" format="reference"/>
+    <!-- Animation of Screen clear -->
+    <attr name="clearStyle" format="reference"/>
+    <!-- Style of Theme Activity list item -->
+    <attr name="themeItemStyle" format="reference"/>
+    <!-- Style of the activity ActionBar -->
+    <attr name="actionBarStyle" format="reference"/>
+    <!-- MainLayout background -->
+    <attr name="mainLayoutBackground" format="reference"/>
+
+    <attr name="themeStyleBackground" format="reference"/>
+
+</resources>
